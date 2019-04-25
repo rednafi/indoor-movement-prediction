@@ -1,4 +1,4 @@
-# indoor-activity-classification
+# Indoor Movement Prediction
 
 Prediction of user movements from data aggregated via Radio Signal Strength(RSS) measurement system.
 
