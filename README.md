@@ -18,7 +18,7 @@ Each file in the provided dataset contains data pertaining to one temporal seque
 ### Attribute Information
 Data is provided in comma separated value (csv) format. 
 
-#### Input
+#### * Input
 Input RSS streams are provided in files named **MovementAAL_RSS_SEQID.csv**. Here, *IDSEQ* is the progressive numeric *sequence ID*. In each file, each row corresponds to a time step measurement (in temporal order) and contains the following information:
 *RSS_anchor1, RSS_anchor2, RSS_anchor3, RSS_anchor4*
 
