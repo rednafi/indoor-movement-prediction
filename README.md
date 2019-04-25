@@ -24,10 +24,10 @@ Data is provided in comma separated value (csv) format.
 * **Target:** Target data is provided in the file **MovementAAL_target.csv**. Here, each row in this file contains:
 *sequence_ID*, *class_label*.
 
-* **Dataset Grouping:** Data is grouped in 3 sets, file **MovementAAL_DatasetGroup.csv**, provides information about such data grouping. Each row in this file contains: 
+* **Dataset Grouping:** Data is grouped in 3 sets. File **MovementAAL_DatasetGroup.csv**, provides information about such data grouping. Each row in this file contains: 
 *sequence_ID*, *dataset_ID*.
 
-* **Path Grouping:** Users' movements are divided in 6 prototypical paths. File *MovementAAL_Paths.csv* provides information about data grouping based on path type. Here, each row in this file contains:
+* **Path Grouping:** Users' movements are divided in 6 prototypical paths. File **MovementAAL_Paths.csv** provides information about data grouping based on path type. Here, each row in this file contains:
 *sequence_ID*, *path_ID*.
 
 ## Project Organization 
