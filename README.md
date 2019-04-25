@@ -11,9 +11,9 @@ Input data contains temporal streams of radio signal strength (RSS) measured bet
 
 Target data consists in a class label indicating whether the user's trajectory will lead to a change in the spatial context (i.e. a room change) or not. In particular, the target class +1 is associated to the location changing movements, while the target class -1 is associated to the location preserving movements.
 
-The measurement campaign involved a number of 3 different environmental settings, each of which comprises 2 rooms (containing typical office furniture) separated by a corridor. A sketch of the common setup considered is provided by the Figure in file "MovementAAL.jpg".
+The measurement campaign involved a number of 3 different environmental settings, each of which comprises 2 rooms (containing typical office furniture) separated by a corridor. A sketch of the common setup considered is provided by the Figure in file **MovementAAL.jpg**.
 
-Each file in the provided dataset contains data pertaining to one temporal sequence of input RSS data (1 user trajectory for each file). The dataset contains 314 sequences, for a total number of 13197 steps.The dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data). For more information on the dataset, visit this [link](http://wnlab.isti.cnr.it/paolo/index.php/dataset/6rooms). 
+Each file in the provided dataset contains data pertaining to one temporal sequence of input RSS data (1 user trajectory for each file). The dataset contains 314 sequences, for a total number of 13197 steps. The dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data). For more information on the dataset, visit this [link](http://wnlab.isti.cnr.it/paolo/index.php/dataset/6rooms). 
 
 ### Attribute Information
 Data is provided in comma separated value (csv) format. 
