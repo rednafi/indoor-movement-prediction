@@ -65,24 +65,30 @@ Users' movements are divided in 6 prototypical paths. File *MovementAAL_Paths.cs
 
 ### Workflow
 ```
-.
-├── data/
-    ├── MovementAAL/
-        ├── dataset/
-            ├── MovementAAL_RSS_1.csv
-            ├── MovementAAL_RSS_2.csv
-            ...........
-        ├── groups/
-            ├── MovementAAL_DatsetGroup.csv
-            ├── MovementAAL_Paths.csv
-            
-    ├── notebooks/
-        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
- 
-    ├── processed_data/
-        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
-        
-    ├── LICENSE
-    ├── requirements.txt
-         
+Dataset
+      - Preprocessing
+                    - Concatenating Target Column with the Inputs
+                    - Adding Ids to Each Row
+                    - Adding Groups to Each Row
+                    - Adding Time based on 8Hz Sampling Frequency
+                    
+      - Exploratory Data Analysis
+                                - Time Series Visualization
+                                - Histogram Plots
+                                - Dimensionality Reduction 
+                                                         - PCA (Principle Component Analysis)
+                                                         - UMAP (Uniform Manifold Approximation and Projection)
+                                                         
+      - Movement Classification & Prediction
+                                           - Baseline Classification using Random Forest Classifier
+                                           - Ensemble Method for Improving Prediction
+                                                                                    - Classifiers
+                                                                                                - Decision Tree
+                                                                                                - KNN
+                                                                                                - Gradient Boosting 
+                                                                                                - Random Forest 
+                                                                                                - Adaboost
+                                                                                     - Evaluation
+                                                                                                - ROC Curve
+                                                                                                - Decision Boundaries
  ```
