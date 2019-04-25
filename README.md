@@ -51,10 +51,12 @@ Users' movements are divided in 6 prototypical paths. File *MovementAAL_Paths.cs
             ├── MovementAAL_Paths.csv
             
     ├── notebooks/
-        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
+        ├── Indoor User Movement Prediction from RSS Data Set .ipynb
  
     ├── processed_data/
-        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
+        ├── indoor_movement.csv
+        ├── indoor_movement_red.csv
+        
         
     ├── LICENSE
     ├── requirements.txt
