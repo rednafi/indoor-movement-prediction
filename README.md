@@ -67,28 +67,28 @@ Users' movements are divided in 6 prototypical paths. File *MovementAAL_Paths.cs
 ```
 Dataset
       - Preprocessing
-                    - Concatenating Target Column with the Inputs
-                    - Adding Ids to Each Row
-                    - Adding Groups to Each Row
-                    - Adding Time based on 8Hz Sampling Frequency
+                - Concatenating Target Column with the Inputs
+                - Adding Ids to Each Row
+                - Adding Groups to Each Row
+                - Adding Time based on 8Hz Sampling Frequency
                     
       - Exploratory Data Analysis
-                                - Time Series Visualization
-                                - Histogram Plots
-                                - Dimensionality Reduction 
-                                                         - PCA (Principle Component Analysis)
-                                                         - UMAP (Uniform Manifold Approximation and Projection)
+                - Time Series Visualization
+                - Histogram Plots
+                - Dimensionality Reduction 
+                         - PCA (Principle Component Analysis)
+                         - UMAP (Uniform Manifold Approximation and Projection)
                                                          
       - Movement Classification & Prediction
-                                           - Baseline Classification using Random Forest Classifier
-                                           - Ensemble Method for Improving Prediction
-                                                                                    - Classifiers
-                                                                                                - Decision Tree
-                                                                                                - KNN
-                                                                                                - Gradient Boosting 
-                                                                                                - Random Forest 
-                                                                                                - Adaboost
-                                                                                     - Evaluation
-                                                                                                - ROC Curve
-                                                                                                - Decision Boundaries
+               - Baseline Classification using Random Forest Classifier
+               - Ensemble Method for Improving Prediction
+                        - Classifiers
+                                - Decision Tree
+                                - KNN
+                                - Gradient Boosting 
+                                - Random Forest 
+                                - Adaboost
+                         - Evaluation
+                                - ROC Curve
+                                - Decision Boundaries
  ```
