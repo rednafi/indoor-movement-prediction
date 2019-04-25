@@ -18,32 +18,30 @@ Each file in the provided dataset contains data pertaining to one temporal seque
 ### Attribute Information
 Data is provided in comma separated value (csv) format. 
 
-* **Input:**
-Input RSS streams are provided in files named __MovementAAL_RSS_SEQID.csv__, where *IDSEQ* is the progressive numeric *sequence ID*. In each file, each row corresponds to a time step measurement (in temporal order) and contains the following information:
+#### Input
+Input RSS streams are provided in files named **MovementAAL_RSS_SEQID.csv**, where *IDSEQ* is the progressive numeric *sequence ID*. In each file, each row corresponds to a time step measurement (in temporal order) and contains the following information:
 *RSS_anchor1, RSS_anchor2, RSS_anchor3, RSS_anchor4*
 
-* **Target data:**
-Target data is provided in the file *MovementAAL_target.csv*
+#### Target data
+Target data is provided in the file **MovementAAL_target.csv**
 Each row in this file contains:
-*sequence_ID, class_label*
+*sequence_ID*, *class_label*
 
 
-* **Dataset grouping:**
-Data is grouped in 3 sets, file *MovementAAL_DatasetGroup.csv*, provides information about such data grouping. Each row in this file contains: 
-*sequence_ID, dataset_ID*
+#### Dataset grouping
+Data is grouped in 3 sets, file **MovementAAL_DatasetGroup.csv**, provides information about such data grouping. Each row in this file contains: 
+*sequence_ID*, *dataset_ID*
 
-* **Path grouping:**
+#### Path grouping
 Users' movements are divided in 6 prototypical paths.
 File *MovementAAL_Paths.csv* provides information about data grouping based on path type.
 Each row in this file contains:
-*sequence_ID, path_ID*
+*sequence_ID*, *path_ID*
 
 ## Project Organization 
-```
-------------------------------------------------------------------------------------------------------
-Folder Structure
-------------------------------------------------------------------------------------------------------
 
+### Folder Structure
+```
 .
 ├── data/
     ├── MovementAAL/
@@ -66,3 +64,26 @@ Folder Structure
          
  ```
 
+### Workflow
+```
+.
+├── data/
+    ├── MovementAAL/
+        ├── dataset/
+            ├── MovementAAL_RSS_1.csv
+            ├── MovementAAL_RSS_2.csv
+            ...........
+        ├── groups/
+            ├── MovementAAL_DatsetGroup.csv
+            ├── MovementAAL_Paths.csv
+            
+    ├── notebooks/
+        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
+ 
+    ├── processed_data/
+        ├──  Indoor User Movement Prediction from RSS Data Set .ipynb
+        
+    ├── LICENSE
+    ├── requirements.txt
+         
+ ```
