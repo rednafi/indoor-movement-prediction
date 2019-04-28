@@ -98,3 +98,9 @@ Dataset
                                 - UMAP of the Extracted Features
                                 - Decision Boundary Plotting
  ```
+
+## Requirements
+
+```
+pip3 install -r requirements.txt
+```
