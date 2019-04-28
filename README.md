@@ -89,8 +89,8 @@ Dataset
                                 - Important feature selection
                         - Classification 
                                 - 75-25% Train-Test Split
-                                - Classifier Ensembling Via Soft Voting (Decision Tree, KNN, Gradient Boosting,
-                                                                         Random Forest, Adaboost) 
+                                - Classifier Ensembling Via Soft Voting (Decision Tree, KNN,
+                                Gradient Boosting,Random Forest, Adaboost) 
                                 - 10-fold Stratified Cross Validation
                                 - Training
                          - Evaluation
