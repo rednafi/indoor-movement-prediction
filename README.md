@@ -75,15 +75,26 @@ Dataset
                          - UMAP (Uniform Manifold Approximation and Projection)
                                                          
       - Movement Classification & Prediction
-               - Baseline Classification using Random Forest Classifier
+               - Baseline Model
+                        - Classification
+                                - 75-25% Train-Test Split
+                                - Classification via Random Forest
+                                - Training
+                        - Evaluation
+                                - Validation
+                        
                - Ensemble Method for Improving Prediction
-                        - Classifiers
-                                - Decision Tree
-                                - KNN
-                                - Gradient Boosting 
-                                - Random Forest 
-                                - Adaboost
+                        - Feature Extraction
+                                - Tsfresh feature extraction
+                                - Important feature selection
+                        - Classification 
+                                - 75-25% Train-Test Split
+                                - Classifier Ensembling Via Soft Voting (Decision Tree, KNN,
+                                Gradient Boosting,Random Forest, Adaboost) 
+                                - 10-fold Stratified Cross Validation
+                                - Training
                          - Evaluation
-                                - ROC Curve
-                                - Decision Boundaries
+                                - Validation 
+                                - UMAP of the Extracted Features
+                                - Decision Boundary Plotting
  ```
