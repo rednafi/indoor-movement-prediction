@@ -1,6 +1,6 @@
 # Indoor Movement Prediction
 
-Prediction of user movements from data aggregated via Radio Signal Strength(RSS) measurement system.
+Prediction of user movements from data aggregated via Radio Signal Strength(RSS) measurement system. A static version of the jupyter notebook can be seen [here](https://nbviewer.jupyter.org/github/rednafi/indoor-movement-prediction/blob/master/notebooks/.ipynb_checkpoints/%20Indoor%20User%20Movement%20Prediction%20from%20RSS%20Data%20Set%20-checkpoint.ipynb)
 
 ## Dataset Description
 ### Summary
