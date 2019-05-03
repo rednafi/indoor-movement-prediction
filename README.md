@@ -14,7 +14,7 @@ The measurement campaign involved a number of 3 different environmental settings
 
 Each file in the provided dataset contains data pertaining to one temporal sequence of input RSS data (1 user trajectory for each file). The dataset contains 314 sequences, for a total number of 13197 steps. The dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data). For more information on the dataset, visit this [link](http://wnlab.isti.cnr.it/paolo/index.php/dataset/6rooms). 
 
-![Screenshot](https://github.com/rednafi/indoor-movement-prediction/blob/master/processed_data/RSS%20Output%20.png){:height="950px" width="550px"}
+![Screenshot](https://github.com/rednafi/indoor-movement-prediction/blob/master/processed_data/fig1.svg)
 
 ### Attribute Information
 Data is provided in comma separated value (csv) format. 
