@@ -36,27 +36,31 @@ Data is provided in comma separated value (csv) format.
 ### Folder Structure
 ```
 .
-├── data/
-    ├── MovementAAL/
-        ├── dataset/
-            ├── MovementAAL_RSS_1.csv
-            ├── MovementAAL_RSS_2.csv
-            ...........
-        ├── groups/
-            ├── MovementAAL_DatsetGroup.csv
-            ├── MovementAAL_Paths.csv
-            
-    ├── notebooks/
-        ├── Indoor User Movement Prediction from RSS Data Set .ipynb
- 
-    ├── processed_data/
-        ├── indoor_movement.csv
-        ├── indoor_movement_red.csv
-        
-        
-    ├── LICENSE
-    ├── requirements.txt
-         
+├── data
+│   ├── indoor_movement.csv
+│   ├── indoor_movement_red.csv
+│   └── MovementAAL
+│       ├── dataset
+│       │   ├── MovementAAL_RSS_1.csv
+│       │   ├── MovementAAL_RSS_2.csv
+│       │   ...........................
+│       │ 
+│       ├── dataset_description.txt
+│       ├── groups
+│       │   ├── MovementAAL_DatasetGroup.csv
+│       │   └── MovementAAL_Paths.csv
+│       ├── MovementAAL.jpg
+│       └── README.txt
+├── LICENSE
+├── notebooks
+│   └──  Indoor User Movement Prediction from RSS Data Set .ipynb
+├── processed_data
+│   ├── indoor_movement.csv
+│   ├── indoor_movement_red.csv
+│   └── RSS Output.png
+├── README.md
+└── requirements.txt
+       
  ```
 
 ### Workflow
