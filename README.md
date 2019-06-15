@@ -59,8 +59,8 @@ Data is provided in comma separated value (csv) format.
 │   ├── indoor_movement_red.csv
 │   └── RSS Output.png
 ├── README.md
-└── requirements.txt
-       
+└── requirements.txt      
+
  ```
 
 ### Workflow
