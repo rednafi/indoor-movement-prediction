@@ -1,5 +1,11 @@
 # Indoor Movement Prediction
 
+[![dataset](https://img.shields.io/badge/Dataset-indoor--movement-red.svg)](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rednafi/indoor-movement-prediction/blob/master/LICENSE)
+![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
 Prediction of user movements from data aggregated via Radio Signal Strength(RSS) measurement system. A static version of the jupyter notebook can be seen [here.](https://nbviewer.jupyter.org/github/rednafi/indoor-movement-prediction/blob/master/notebooks/.ipynb_checkpoints/%20Indoor%20User%20Movement%20Prediction%20from%20RSS%20Data%20Set%20-checkpoint.ipynb)
 
 ## Dataset Description
