@@ -2,7 +2,7 @@ pandas==1.0.1
 scipy==1.4.1
 umap==0.1.1
 numpy==1.18.1
-tsfresh==0.13.0
+tsfresh==0.14.1
 plotly_express==0.4.1
 plotly==4.5.1
 tqdm==4.41.1
