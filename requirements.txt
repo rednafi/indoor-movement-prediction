@@ -1,7 +1,7 @@
 pandas==1.0.2
 scipy==1.4.1
 umap==0.1.1
-numpy==1.18.1
+numpy==1.18.4
 tsfresh==0.14.1
 plotly_express==0.4.1
 plotly==4.5.1
