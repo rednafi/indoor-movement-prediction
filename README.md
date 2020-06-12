@@ -6,7 +6,6 @@ Predicting user movements from temporal streams of RSS (Radio Signal Strength) m
 [![dataset](https://img.shields.io/badge/Dataset-indoor--movement-red.svg)](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rednafi/indoor-movement-prediction/blob/master/LICENSE)
-![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 </div>
@@ -68,13 +67,12 @@ Data is provided in comma separated value (csv) format.
 │   ├── indoor_movement.csv
 │   ├── indoor_movement_red.csv
 │   └── RSS Output.png
-├── poetry.lock
-├── pyproject.toml
-└── README.md
-
- ```
+├── README.md
+└── requirements.txt
+```
 
 ### Workflow
+
 ```
 Dataset
       - Preprocessing
