@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  indoorapp:
+    container_name: indoorapp-cont
+    volumes:
+      - ./data:/app/data
+      - ./processed_data:/app/processed_data
+
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+
+volumes:
+  data:
+  processed_data:
