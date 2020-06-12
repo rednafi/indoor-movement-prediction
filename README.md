@@ -117,23 +117,30 @@ Dataset
 
 ## Installation
 
-* You'll need at least Python 3.8 installed on your machine
+* You'll need [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) installed on your machine
 
-* Create a new environment
-
-    ```bash
-    python3.8 -m venv venv
-    source venv/bin/activate
-    ```
-*
-* Install the dependencies
+* Clone the repo
 
     ```bash
-    pip3 install -r requirements.txt
+    git clone git@github.com:rednafi/indoor-movement-prediction.git
     ```
 
-* Run the jupyter notebook
+
+* Run the container
 
     ```bash
-    jupyter notebook
+    docker-compose up -d
+    ```
+
+* Goto your browser and open the following URL (Your token might vary. Inspect that using
+`docker logs indoorapp-cont` command)
+
+    ```
+    http://127.0.0.1:8888/?token=9143b78935c03b423190348826bfd9194beabfdb802563b8
+    ```
+
+* Stop the container
+
+    ```bash
+    docker-compose down
     ```
