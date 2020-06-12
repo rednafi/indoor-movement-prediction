@@ -130,7 +130,7 @@ Dataset
     docker-compose up -d
     ```
 
-* Goto your browser and open the following URL (Your token might vary. Inspect that using
+* Go to your browser and open the following URL (Your token might vary. Inspect that using
 `docker logs indoorapp-cont` command)
 
     ```
