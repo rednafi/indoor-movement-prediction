@@ -67,7 +67,11 @@ Data is provided in comma separated value (csv) format.
 │   ├── indoor_movement.csv
 │   ├── indoor_movement_red.csv
 │   └── RSS Output.png
+├── .dockerignore
+├── .gitignore
+├── Dockerfile
 ├── README.md
+├── docker-compose.yml
 └── requirements.txt
 ```
 
