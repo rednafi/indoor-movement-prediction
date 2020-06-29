@@ -5,6 +5,6 @@ numpy==1.18.5
 tsfresh==0.16.0
 plotly==4.8.2
 tqdm==4.46.1
-matplotlib==3.2.1
+matplotlib==3.2.2
 scikit-learn==0.23.1
 jupyter==1.0.0
