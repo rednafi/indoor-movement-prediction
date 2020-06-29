@@ -1,5 +1,5 @@
 pandas==1.0.4
-scipy==1.4.1
+scipy==1.5.0
 umap-learn==0.4.4
 numpy==1.18.5
 tsfresh==0.16.0
