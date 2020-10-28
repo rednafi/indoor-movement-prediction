@@ -3,6 +3,8 @@ version: "3"
 services:
   indoorapp:
     container_name: indoorapp-cont
+    environment:
+      - PASSWORD=ubuntu
     volumes:
       - ./data:/app/data
       - ./processed_data:/app/processed_data
